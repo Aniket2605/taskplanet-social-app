@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://taskplanet-social-app-j520.onrender.com/api'
 });
 
 // Attach token to every request automatically
